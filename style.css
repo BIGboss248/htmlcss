@@ -1,0 +1,15 @@
+.youtube-div {
+  background-color: gray;
+  vertical-align: middle;
+  text-align: left;
+  padding: 7px;
+  display: inline-block;
+}
+.white-paragraph {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.gray-paragraph {
+  color: lightgray;
+}
