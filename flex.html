@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+    <style>
+      .div-flex-2item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .div-flex-2item > div {
+        background-color: lightpink;
+        max-width: 300px;
+        padding: 5px;
+      }
+      .div-flex-3item-fullwidth{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .div-flex-3item-fullwidth > div {
+        background-color: lightblue;
+        padding: 5px;
+        border: 1px solid black;
+      }
+      .div-flex-4item-evenly{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .div-flex-4item-evenly > div{
+        background-color: lightgreen;
+        padding: 5px;
+        border: 1px solid black;
+      }
+      .flex-search{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(223, 42, 223);
+        padding: 10px;
+      }
+
+      .flex-search > .search-div{
+        width: 900px;
+        display: block;
+        text-align: center;
+
+      }
+      .flex-search > .Home-link{
+        color: white;
+        font-weight: bold;
+      }
+      .download-button{
+        color: white;
+        border: 1px solid white;
+        background-color: rgb(223, 42, 223);
+        padding: 10px;
+      }
+      .Search-box{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+      <div>
+        <h1>Flex with 2 items</h1>
+        <div class="div-flex-2item">
+          <div style="width: 200px;">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              fringilla, nunc at aliquet tincidunt, urna erat laoreet nunc, in
+              facilisis libero odio a justo.
+            </p>
+          </div>
+          <div style="width: 75px;">
+            <p>
+              Phasellus euismod, justo at facilisis gravida, ligula erat
+              ullamcorper risus, nec convallis erat nisl in nunc.
+            </p>
+          </div>
+    </div>
+    <div>
+        <h1>flex full width</h1>
+        <div class="div-flex-3item-fullwidth">
+          <div style="width: 50px;">50px</div>
+          <div style="flex: 1;">flex 1</div>
+          <div style="width: 75px;">75px</div>
+        </div>
+    </div>
+    <div>
+        <h1>flex with 4 items spread evenly across page space between</h1>
+        <div class="div-flex-4item-evenly">
+            <div>item1</div>
+            <div>item2</div>
+            <div>item3</div>
+            <div>item4</div>
+        </div>
+    </div>
+    <div class="flex-search">
+        <div class="Home-link"><p><strong>Home</strong></p></div>
+        <div class="search-div">
+            <input class="Search-box" type="text" name="Search" id="Search-box" placeholder="Search..." />
+        </div>
+        <div>
+            <button class="download-button">Download</button>
+        </div>
+    </div>
+  </body>
+</html>
