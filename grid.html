@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Practice</title>
+    <style>
+      .div-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+      }
+      .div-grid > div {
+        background-color: lightpink;
+        border: 1px solid black;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div-grid">
+      <div>1f1</div>
+      <div>1f1</div>
+      <div>1f1</div>
+      <div>1f1</div>
+      <div>1f1</div>
+      <div>1f1</div>
+    </div>
+  </body>
+</html>
