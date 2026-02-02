@@ -1,9 +1,18 @@
 let todoList = [];
-function addTodo(inputClassName) {
+
+function addTodo(inputClassName, inputClassDate) {
   const inputElement = document.querySelector(`.${inputClassName}`);
   const inputValue = inputElement.value;
-  todoList.push(inputValue);
+  const inputDateElement = document.querySelector(`.${inputClassDate}`);
+  const inputDateValue = inputDateElement.value;
+  if (inputValue === "" || inputDateValue === "") {
+    alert("Please enter a todo and a date");
+    return;
+  }
+  console.log("Adding todo:", inputValue, "with date:", inputDateValue);
+  todoList.push({ name: inputValue, date: inputDateValue });
   inputElement.value = "";
+  inputDateElement.value = "";
   inputElement.focus();
   console.log(todoList);
   renderTodoList();
@@ -23,11 +32,11 @@ function renderTodoList() {
     todoListElement.innerHTML += `
       <div class="todoItem-div">
       <li class="todo-item">
-      ${todoList[i]}
+      ${todoList[i].name}
       </li>
       <button class="delete-button" onclick='removeTodo(${i});'>
       Delete
       </button>
       </div>`;
-  };
+  }
 }

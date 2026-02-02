@@ -11,12 +11,13 @@
 <body>
   <div class="add-v1">
     <h2>Todo list app</h2>
-    <div>
-      <input type="text" name="Todo name" placeholder="Todo name" id="todo-name-input" class="add-input">
-      <button class="add-button" onclick="addTodo('add-input')">Add</button>
+    <div class="add-row">
+      <input type="text" name="Todo name" placeholder="Todo name" id="todo-name-input" class="add-input-name">
+      <input type="date" name="Todo date" placeholder="2000-1-1" id="todo-date-input" class="add-input-date">
+      <button class="add-button" onclick="addTodo('add-input-name', 'add-input-date')">Add</button>
     </div>
     <ol class="todo-list">
-      
+
     </ol>
   </div>
   <script src="main.js"></script>

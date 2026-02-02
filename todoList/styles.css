@@ -4,31 +4,53 @@
   display: flex;
   flex-direction: column;
 }
+
+.add-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
 .add-button {
   border: 1px solid transparent;
   border-radius: 15%;
   padding: 5px 10px;
   cursor: pointer;
   background-color: aqua;
+  height: auto;
 }
-.add-input {
+
+.add-input-name {
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
+  height: auto;
 }
+
 .add-button:hover {
   color: white;
   background-color: black;
 }
-.add-input:focus {
+
+.todo-date-input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  height: auto;
+}
+
+.add-input-name:focus {
   border: 1px solid gold;
 }
+
 .todoItem-div {
   display: flex;
   align-items: center;
   padding: 5px 5px;
   gap: 10px;
 }
+
 .delete-button {
   color: white;
   background-color: crimson;
@@ -36,5 +58,6 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
 .todo-item {
 }
