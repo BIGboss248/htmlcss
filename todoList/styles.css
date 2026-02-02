@@ -1,0 +1,40 @@
+.add-v1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.add-button {
+  border: 1px solid transparent;
+  border-radius: 15%;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: aqua;
+}
+.add-input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+.add-button:hover {
+  color: white;
+  background-color: black;
+}
+.add-input:focus {
+  border: 1px solid gold;
+}
+.todoItem-div {
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+  gap: 10px;
+}
+.delete-button {
+  color: white;
+  background-color: crimson;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.todo-item {
+}
