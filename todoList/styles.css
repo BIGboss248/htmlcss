@@ -1,24 +1,12 @@
-.add-v1 {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+.appName-heading {
+  text-align: center;
 }
 
 .add-row {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 200px 100px 50px;
+  column-gap: 10px;
   justify-content: center;
-  gap: 5px;
-}
-
-.add-button {
-  border: 1px solid transparent;
-  border-radius: 15%;
-  padding: 5px 10px;
-  cursor: pointer;
-  background-color: aqua;
-  height: auto;
 }
 
 .add-input-name {
@@ -28,16 +16,21 @@
   height: auto;
 }
 
-.add-button:hover {
-  color: white;
-  background-color: black;
-}
-
 .todo-date-input {
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
   height: auto;
+}
+
+.add-button {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-size: medium;
 }
 
 .add-input-name:focus {
