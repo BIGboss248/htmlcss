@@ -25,18 +25,17 @@ function removeTodo(index) {
 }
 
 function renderTodoList() {
-  let todoListElement = document.querySelector(".todo-list");
-  todoListElement.innerHTML = "";
+  // Remove all elements with class="todo-item-remove"
+  document.querySelectorAll(".todo-item-remove").forEach((el) => el.remove());
+  let todoListElement = document.querySelector(".add-row");
   for (let i = 0; i < todoList.length; i++) {
     console.log(todoList[i]);
     todoListElement.innerHTML += `
-      <div class="todoItem-div">
-      <li class="todo-item">
-      ${todoList[i].name}
-      </li>
+      <div class="todo-item-remove">${todoList[i].name}</div>
+      <div class="todo-item-remove">${todoList[i].date}</div>
       <button class="delete-button" onclick='removeTodo(${i});'>
       Delete
       </button>
-      </div>`;
+      `;
   }
 }
