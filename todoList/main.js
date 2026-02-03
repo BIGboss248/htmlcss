@@ -33,7 +33,7 @@ function renderTodoList() {
     todoListElement.innerHTML += `
       <div class="todo-item-remove">${todoList[i].name}</div>
       <div class="todo-item-remove">${todoList[i].date}</div>
-      <button class="delete-button" onclick='removeTodo(${i});'>
+      <button class="delete-button todo-item-remove" onclick='removeTodo(${i});'>
       Delete
       </button>
       `;

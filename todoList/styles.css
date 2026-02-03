@@ -4,9 +4,12 @@
 
 .add-row {
   display: grid;
-  grid-template-columns: 200px 100px 50px;
+  grid-template-columns: 200px 100px 100px;
   column-gap: 10px;
+  row-gap: 10px;
   justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 .add-input-name {
@@ -31,6 +34,8 @@
   background-color: green;
   color: white;
   font-size: medium;
+  width: 75px;
+  height: 30px;
 }
 
 .add-input-name:focus {
@@ -43,4 +48,7 @@
   border: 1px solid transparent;
   border-radius: 5px;
   cursor: pointer;
+  font-size: medium;
+  width: 75px;
+  height: 30px;
 }
