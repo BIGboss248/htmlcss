@@ -37,20 +37,10 @@
   border: 1px solid gold;
 }
 
-.todoItem-div {
-  display: flex;
-  align-items: center;
-  padding: 5px 5px;
-  gap: 10px;
-}
-
 .delete-button {
   color: white;
   background-color: crimson;
   border: 1px solid transparent;
   border-radius: 5px;
   cursor: pointer;
-}
-
-.todo-item {
 }
