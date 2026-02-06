@@ -1,0 +1,21 @@
+.mainButton {
+  transition: all 0.3s ease;
+}
+
+.finishButton {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: black 2px 2px 5px;
+}
+
+.finishedButton {
+  background-color: gray;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  box-shadow: black 2px 2px 5px;
+}
