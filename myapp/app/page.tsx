@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <header className="bg-amber-700 p-4 flex align-middle justify-around sticky top-0 right-0 left-0 text-xl">
+      <header className="bg-background text-foreground p-4 flex align-middle justify-around sticky top-0 right-0 left-0 text-xl">
         <div>
           <a href="">LOGO</a>
         </div>
@@ -14,101 +14,101 @@ export default function Home() {
         </nav>
       </header>
       <main className="bg-slate-500 min-h-screen p-4 grow">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 justify-items-center text-center text-black">
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
-          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 justify-items-center text-center text-foreground">
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
+          <div className="productItem">product1</div>
+          <div className="productItem">product2</div>
+          <div className="productItem">product3</div>
+          <div className="productItem">product4</div>
+          <div className="productItem">product5</div>
+          <div className="productItem">product6</div>
+          <div className="productItem">product7</div>
+          <div className="productItem">product8</div>
+          <div className="productItem">product9</div>
         </div>
       </main>
-      <footer className="bg-amber-700 flex justify-around text-center p-4">
-        <div className="bg-slate-50 text-black p-2 text-left w-lg">
+      <footer className="bg-footerBg text-footerFg flex justify-around text-center p-4">
+        <div className="p-2 text-left w-lg">
           <h2>Sample site</h2>
           <p>Company site</p>
           <br />
@@ -121,13 +121,13 @@ export default function Home() {
             <div>Logo5</div>
           </div>
         </div>
-        <div className="bg-slate-50 text-black p-2">
+        <div className="p-2">
           section1
         </div>
-        <div className="bg-slate-50 text-black p-2">
+        <div className="p-2">
           section1
         </div>
       </footer>
-    </div>
+    </div >
   );
 }
