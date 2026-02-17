@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <header className="bg-amber-700 p-4 flex align-middle justify-around sticky top-0 right-0 left-0">
+    <div className="flex flex-col">
+      <header className="bg-amber-700 p-4 flex align-middle justify-around sticky top-0 right-0 left-0 text-xl">
         <div>
           <a href="">LOGO</a>
         </div>
@@ -13,19 +13,100 @@ export default function Home() {
           <a href="/contact-us">contact us</a>
         </nav>
       </header>
-      <div className="bg-slate-500 p-4 h-screen">
-        <div className="grid grid-cols-3 gap-4 justify-items-center text-center text-black">
-          <div className="bg-amber-600 w-20 h-20 content-center">product1</div>
-          <div className="bg-amber-600 w-20 h-20 content-center">product2</div>
-          <div className="bg-amber-600 w-20 h-20 content-center">product3</div>
-          <div className="bg-amber-600 w-20 h-20 content-center">product4</div>
-          <div className="bg-amber-600 w-20 h-20 content-center">product5</div>
-          <div className="bg-amber-600 w-20 h-20 content-center">product6</div>
-          <div className="bg-amber-600 w-20 h-20 content-center">product7</div>
-          <div className="bg-amber-600 w-20 h-20 content-center">product8</div>
-          <div className="bg-amber-600 w-20 h-20 content-center">product9</div>
+      <main className="bg-slate-500 min-h-screen p-4 grow">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 justify-items-center text-center text-black">
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product1</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product2</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product3</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product4</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product5</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product6</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product7</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product8</div>
+          <div className="rounded bg-amber-600 hover:bg-amber-600/80 hover:shadow-lg p-4 w-md content-center">product9</div>
         </div>
-      </div>
+      </main>
       <footer className="bg-amber-700 flex justify-around text-center p-4">
         <div className="bg-slate-50 text-black p-2 text-left w-lg">
           <h2>Sample site</h2>
