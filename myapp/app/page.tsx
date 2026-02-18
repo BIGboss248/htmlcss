@@ -1,4 +1,13 @@
 import Image from "next/image";
+import { JSX } from "react";
+
+const productGrid: JSX.Element[] = [];
+
+
+
+for (let index = 1; index < 28; index++) {
+  productGrid.push(<div className="productItem">product{index}</div>);
+}
 
 export default function Home() {
   return (
@@ -15,106 +24,21 @@ export default function Home() {
       </header>
       <main className="bg-slate-500 min-h-screen p-4 grow">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 justify-items-center text-center text-foreground">
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
-          <div className="productItem">product1</div>
-          <div className="productItem">product2</div>
-          <div className="productItem">product3</div>
-          <div className="productItem">product4</div>
-          <div className="productItem">product5</div>
-          <div className="productItem">product6</div>
-          <div className="productItem">product7</div>
-          <div className="productItem">product8</div>
-          <div className="productItem">product9</div>
+          {productGrid}
         </div>
       </main>
-      <footer className="bg-footerBg text-footerFg flex justify-around text-center p-4">
-        <div className="p-2 text-left w-lg">
+      <footer className="bg-footerBg text-footerFg flex justify-around text-center p-10">
+        <div className="p-2 text-left w-lg space-y-1">
           <h2>Sample site</h2>
           <p>Company site</p>
           <br />
           <p>Find your way across the world</p>
           <div className="flex flex-row justify-items-end space-x-7">
-            <div>Logo1</div>
+            <div>
+              <a href="https://instagram.com">
+                <Image src="Instagram_Glyph_Gradient.svg" alt="Icon of instagram" width={30} height={30}></Image>
+              </a>
+            </div>
             <div>Logo2</div>
             <div>Logo3</div>
             <div>Logo4</div>
