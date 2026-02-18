@@ -29,7 +29,7 @@
 }
 @layer components {
   .productItem {
-    @apply rounded bg-background text-foreground hover:opacity-80 hover:shadow-lg p-4 w-md content-center;
+    @apply rounded bg-background text-foreground hover:opacity-80 hover:shadow-lg p-4 w-md content-center cursor-pointer;
   }
 }
 
