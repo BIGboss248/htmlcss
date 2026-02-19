@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Image from "next/image";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,13 +31,17 @@ export default function RootLayout({
       >
         <header className="bg-background text-foreground p-4 flex align-middle justify-around sticky top-0 right-0 left-0 text-xl">
           <div>
-            <a href="">LOGO</a>
+            <a href="">
+              <Image src="/BTP_Logo.png" alt="Logo of the company" width={122} height={67} />
+            </a>
           </div>
-          <nav className="space-x-4">
-            <a href="">Home</a>
-            <a href="/about">about</a>
-            <a href="/contact-us">contact us</a>
-          </nav>
+          <div className="flex items-center">
+            <nav className="space-x-4">
+              <Link href="/">Home</Link>
+              <Link href="/about">about</Link>
+              <Link href="/contact-us">contact us</Link>
+            </nav>
+          </div>
         </header>
         {children}
         <footer className="bg-footerBg text-footerFg flex justify-around text-center p-10">
