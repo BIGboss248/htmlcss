@@ -31,9 +31,9 @@ export default function RootLayout({
       >
         <header className="bg-background text-foreground p-4 flex align-middle justify-around sticky top-0 right-0 left-0 text-xl">
           <div>
-            <a href="">
+            <Link href="/">
               <Image src="/BTP_Logo.png" alt="Logo of the company" width={122} height={67} />
-            </a>
+            </Link>
           </div>
           <div className="flex items-center">
             <nav className="space-x-4">
