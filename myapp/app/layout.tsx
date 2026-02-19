@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header className="bg-background text-foreground p-4 flex align-middle justify-around sticky top-0 right-0 left-0 text-xl">
+        <header className="bg-footerBg text-footerFg p-4 flex align-middle justify-around sticky top-0 right-0 left-0 text-xl">
           <div>
             <Link href="/">
               <Image src="/BTP_Logo.png" alt="Logo of the company" width={122} height={67} />
